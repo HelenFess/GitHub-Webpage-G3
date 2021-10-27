@@ -1,0 +1,17 @@
+html{
+background-image:url('https://blog.mystart.com/wp-content/uploads/shutterstock_238248124-e1520010671722-1536x1057.jpg') ;
+background-size: cover;
+}
+
+body{
+ font-family:'courier New' ;
+ min-width: 960px;
+ width: 90%;
+ margin:0 auto;
+ padding: 1%;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+}
