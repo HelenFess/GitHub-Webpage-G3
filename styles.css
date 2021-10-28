@@ -1,14 +1,30 @@
 html{
-background-image:url('https://blog.mystart.com/wp-content/uploads/shutterstock_238248124-e1520010671722-1536x1057.jpg') ;
+background-image:url('https://basicuse.net/var/plain_site/storage/images/media/images/articles/prog_lang/textile/html_css/animated_falling_snow_using_keyframes_in_css3/falling_snow_animation_in_action/265031-1-eng-GB/falling_snow_animation_in_action.gif') ;
 background-size: cover;
 }
-
 body{
  font-family:'courier New' ;
  min-width: 960px;
  width: 90%;
  margin:0 auto;
  padding: 1%;
+}
+
+nav{
+    text-align: center; /* ceneter the nav */
+}
+
+nav ul{
+    list-style: none; /* remove the bullets */
+}
+
+nav ul li{
+    display: inline-block; /* make horizontal but, able to declare margin */
+    margin: 0 2%; /* margin left-right gets, smaller as necessary */
+}
+
+nav a:hover{
+    text-decoration: none;
 }
 
 footer{
