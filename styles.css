@@ -12,7 +12,7 @@ body{
 body header{
     font-family:'courier New' ;
     font-weight: bold;
-    min-width:none;
+    min-width:111%;
     width: 1425px;
     margin:0;
     padding: 0%;
@@ -39,13 +39,13 @@ header::after {
 .logo{
   align-content: left;
   padding-top:10px;
-  padding-left: 52px;
+  padding-left: 170px;
   padding-bottom: 10px;
-  max-width:150px;
+  max-width:300px;
   max-height: 90px;
 }
 nav{
-    padding-right: 15px;
+    padding-right: 15%;
     float: right;
 
 }
