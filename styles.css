@@ -6,28 +6,89 @@ body{
  font-family:'courier New' ;
  min-width: 960px;
  width: 90%;
- margin:0 auto;
- padding: 1%;
+ margin:0;
+ padding: 0%;
 }
-
-nav{
-    text-align: center; /* ceneter the nav */
+body header{
+    font-family:'courier New' ;
+    font-weight: bold;
+    min-width:none;
+    width: 1425px;
+    margin:0;
+    padding: 0%;
 }
-
-nav ul{
-    list-style: none; /* remove the bullets */
+body main{font-family:'courier New' ;
+    min-width: 960px;
+    width: 90%;
+    margin:0 auto;
+    padding: 1%;
 }
-
-nav ul li{
-    display: inline-block; /* make horizontal but, able to declare margin */
-    margin: 0 2%; /* margin left-right gets, smaller as necessary */
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
-
-nav a:hover{
-    text-decoration: none;
+header{
+    background: #235E6F
 }
-
-footer{
-    text-align: center;
+header::after {
+    content:'';
+    display: table;
     clear: both;
+
+}
+.logo{
+  align-content: left;
+  padding-top:10px;
+  padding-left: 52px;
+  padding-bottom: 10px;
+  max-width:150px;
+  max-height: 90px;
+}
+nav{
+    padding-right: 15px;
+    float: right;
+
+}
+nav ul{
+    margin:5px;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left:90px;
+    padding-top:25px;
+
+    position: relative;
+}
+nav a{
+    color:#f1553c;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover{ 
+    color:rgb(0, 0, 0)
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width:100%;
+    background-color: #34A65F;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+    width: 100%;
+}
+
+section h1{
+font-weight: bold;
 }
