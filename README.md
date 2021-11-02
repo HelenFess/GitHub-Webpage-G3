@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html>
- <head>
-<h1>
-</head>
-<body>
-<h1>Christmas Around the World<h1>
-<p> I need more content. brief content of christmas.</p>
-<p>Countries we are listing</p>
-<p>
-   <ul>
-       <li>Russia</li>
-       <li>Philippines</li>
-       <li>Ethiopia</li>
-       <li>Japan</li>
-       <li>USA</li>
-    </ul>
-     </p>
-    <p>Christmas hoilday</p>
-    </p>
-    <ol>
-      <li>Example 1</li>
-      <li>Example 2</li>
-      <li>Example 3</li>
-    </ol>
-  </p>
-  <p>
- <p> 
- <p>
-  <p> <img src="url photo" /></p>
-  <p>Source provided by <a href="url" target="_blank">name</a></p>
+This is document is for Kyrrah's class QA Web Development Tool Fall quarter 2021. 
 
-  </body>
-</html>
+This group consists of Eyerusalem, Helen, Tom, and Justin. 
+
+Our topic is about Christmas around the world. Since we are familiar with U.S Christmas, we wanted to see the differences in traditions. 
